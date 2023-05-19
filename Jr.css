@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Minions.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.wrapper{
+margin: 150px auto;
+width: 70%;
+}
+img{
+    max-width: 320px;
+    float: left;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-right: 15px;
+
+}
+.text-box{
+    color: #fff;
+}
+.text-box{
+    font-size: 42px;
+}
+.text-box p{
+    font-size: 16px;
+    font-style: oblique;
+}
+nav a{
+    float: right;
+    display: block;
+    width: 120px;
+    color: #fff;
+    text-align: center;
+    padding: 10px 1px;
+    text-decoration: none;
+    font-size: 16px;
+}
+nav{
+    overflow: hidden;
+    background: #2f3a4a;
+    line-height: 40px;
+}
+nav a:hover{
+    background: #ddd;
+    color: black;
+}
+nav a:active{
+    background: #2196f3;
+    color: #fff;
+}
